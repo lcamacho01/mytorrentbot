@@ -3,3 +3,6 @@ build:
     web: Dockerfile
 run:
   web: bash start.sh
+
+- name: Deploy to Heroku
+  uses: AkhileshNS/heroku-deploy@v3.12.12
